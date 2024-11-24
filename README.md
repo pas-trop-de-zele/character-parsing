@@ -40,30 +40,35 @@ If Pandas is not installed, you will see a message like:
 You need to provide certain information (case sensitive)
 ```
 # Example run
-What is the last account column? traicay8
-How many character per account? 5
-What is sheet name? Sheet1
-What is file name? input.xlsx
-What is the max character per group? 5
+What is the last account column? traicay8 
+How many characters per account? 5
+What is the excel file name? input.xlsx
+What is the sheet name? Sheet1
+How many character do we assign per group? 5
+Enter valid tasks separated by spaces: I II III IV V
+How many valid pairs are there? 2      
+Enter pair 1: II III
+Enter pair 2: I IV
 ```
 
 Sample outpupt
 
 ```
-TASK III-1: traicay1-3 traicay4-4 sintoons1-2 traicay7-3 sintoons6-2 
-TASK III-2: traicay1-2 sintoons2-5 sintoons4-5 sintoons5-5 grocery1-2 
-TASK III-3: traicay4-2 sintoons1-5 grocery3-3 traicay3-3 traicay1-4 
-TASK I-1: sintoons7-2 sintoons4-2 grocery1-3 sintoons2-2 sintoons6-5 
-TASK I-2: sintoons3-4 sintoons5-2 traicay3-4 grocery4-3 traicay-4 
-TASK I-3: traicay5-2 traicay6-3 grocery5-3 grocery2-2 
-TASK IV-1: sintoons6-6 sintoons2-4 sintoons5-6 traicay4-3 traicay2-2 
-TASK IV-2: sintoons6-4 traicay6-2 grocery6-3 traicay7-2 sintoons8-2 
-TASK IV-3: traicay8-2 traicay5-3 sintoons4-6 sintoons2-3 sintoons6-3 
-TASK IV-4: sintoons3-2 
-TASK II-1: sintoons1-3 sintoons3-6 traicay-3 grocery5-2 traicay8-3 
-TASK II-2: traicay3-2 traicay5-4 traicay1-5 sintoons1-6 traicay2-4 
-TASK II-3: sintoons5-4 sintoons3-3 grocery4-2 sintoons9-2 sintoons2-6 
-TASK V-1: traicay2-5 sintoons4-4 traicay-2 sintoons1-4 sintoons3-5 
-TASK V-2: grocery3-2 grocery6-2 grocery2-3 sintoons4-3 traicay2-3 
-TASK V-3: sintoons5-3 
+TASK III-1: traicay1-2 traicay4-2 sintoons1-2 sintoons2-5 sintoons6-2 
+TASK III-2: traicay1-4 sintoons1-5 grocery3-3 sintoons5-5 traicay4-4 
+TASK III-3: traicay7-3 traicay3-3 sintoons4-5 traicay1-3 grocery1-2 
+TASK I-1: sintoons3-4 sintoons2-2 traicay-4 traicay3-4 sintoons6-5 
+TASK I-2: grocery5-3 sintoons4-2 sintoons5-2 grocery2-2 sintoons7-2 
+TASK IV-1: sintoons6-6 sintoons2-4 sintoons8-2 traicay2-2 traicay8-2 
+TASK IV-2: sintoons6-3 traicay6-2 sintoons5-6 traicay5-3 sintoons3-2 
+TASK IV-3: sintoons4-6 grocery6-3 traicay4-3 sintoons6-4 traicay7-2 
+TASK II-1: sintoons3-3 sintoons1-6 traicay3-2 grocery5-2 traicay1-5 
+TASK II-2: sintoons3-6 traicay5-4 traicay-3 traicay2-4 sintoons2-6 
+TASK II-3: sintoons9-2 grocery4-2 sintoons1-3 traicay8-3 sintoons5-4 
+TASK V-1: sintoons4-4 traicay2-5 grocery6-2 grocery2-3 sintoons3-5 
+TASK V-2: sintoons4-3 sintoons5-3 sintoons1-4 grocery3-2 traicay2-3 
+TASK ('I', 'IV')-1: traicay6-3 grocery4-3 grocery1-3 sintoons2-3 traicay5-2 
+
+WARNING: these players could not be processed:
+traicay-2 | Task V
 ```
