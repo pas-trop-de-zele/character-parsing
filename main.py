@@ -6,26 +6,26 @@ from player import Player
 
 
 if __name__ == "__main__":
-    # ACCOUNT_END_COLUMN = input("What is the last account column? ")
-    # CHARACTERS_PER_ACCOUNT = int(input("How many characters per account? "))
-    # FILE_NAME = input("What is the excel file name? ")
-    # SHEET_NAME = input("What is the sheet name? ")
-    # MAX_CHARACTER_PER_GROUP = int(input("How many character do we assign per group? "))
-    # VALID_TASKS = [x for x in input("Enter valid tasks separated by spaces: ").split()]
-    # VALID_PAIRS = []
-    # pair_count = int(input("How many valid pairs are there? "))
-    # if pair_count > 0:
-    #     for i in range(pair_count):
-    #         a, b = input(f"Enter pair {i+1}: ").split()
-    #         VALID_PAIRS.append((a, b))
+    ACCOUNT_END_COLUMN = input("What is the last account column? ")
+    CHARACTERS_PER_ACCOUNT = int(input("How many characters per account? "))
+    FILE_NAME = input("What is the excel file name? ")
+    SHEET_NAME = input("What is the sheet name? ")
+    MAX_CHARACTER_PER_GROUP = int(input("How many character do we assign per group? "))
+    VALID_TASKS = [x for x in input("Enter valid tasks separated by spaces: ").split()]
+    VALID_PAIRS = []
+    pair_count = int(input("How many valid pairs are there? "))
+    if pair_count > 0:
+        for i in range(pair_count):
+            a, b = input(f"Enter pair {i+1}: ").split()
+            VALID_PAIRS.append((a, b))
 
-    ACCOUNT_END_COLUMN = "traicay8"
-    CHARACTERS_PER_ACCOUNT = 5
-    SHEET_NAME = "Sheet1"
-    FILE_NAME = "input.xlsx"
-    MAX_CHARACTER_PER_GROUP = 5
-    VALID_TASKS = ["I", "II", "III", "IV", "V"]
-    VALID_PAIRS = [("I", "IV"), ("II", "III")]
+    # ACCOUNT_END_COLUMN = "traicay8"
+    # CHARACTERS_PER_ACCOUNT = 5
+    # SHEET_NAME = "Sheet1"
+    # FILE_NAME = "input.xlsx"
+    # MAX_CHARACTER_PER_GROUP = 5
+    # VALID_TASKS = ["I", "II", "III", "IV", "V"]
+    # VALID_PAIRS = [("I", "IV"), ("II", "III")]
 
     # Load the Excel file
     file_path = FILE_NAME
